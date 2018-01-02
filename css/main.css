@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Vista splash */
+.splash-view {
+  height: 100vh;
+  background: linear-gradient(-70deg, #290130, #e21a8f);
+  background-size: 400% 400%;
+}
+
+.img-responsive.img-center {
+  margin: 25rem auto;
+}
+
+/* Segunda vista */
+.view-log-sign {
+  background-image: url(../assets/images/vegas.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/* botones Login y Sign up*/
+
+.btn-style {
+  padding: 1rem;
+  margin-bottom: 3rem;
+  margin-left: 4rem;
+  border: 0.3rem solid #fff;
+  background-color: transparent;
+  color: aliceblue;
+  font-size: 2rem;
+  font-weight: 800;
+  width: 40%;
+  position: relative;
+  top:59rem;
+  display: inline-block;
+}
+
+.btn-style:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.2)
+}
+.sign-up {
+  text-align: center;
+}
+
+.box-input {
+  padding-left: 6rem;
+}
+
+input.style-input {
+  width: 300px;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.text {
+  text-align: center;
+  padding: 2rem;
+}
+
+.enable {
+  background-color: #e21a8f;
+  color: #fff;
+}
+
+.ramdom {
+  display: inline-block;
+  width: 100px;
+}
+
+.resend {
+  position: relative;
+  left: 35%;
+  bottom: 1.5rem;
+}
+
+.box-ramdom {
+  margin-left: 6rem;
+}
