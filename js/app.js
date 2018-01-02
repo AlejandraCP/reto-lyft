@@ -6,8 +6,8 @@ $(document).ready(function(){
   function showSecond(){
     $(".view-log-sign").fadeIn();
   }
-  setTimeout(hideSplash, 1000);
-  setTimeout(showSecond, 1200);
+  setTimeout(hideSplash, 2500);
+  setTimeout(showSecond, 2700);
   
   // funcion usando plugin input telephone de jquery
   $('.input-phone').intlTelInput({
